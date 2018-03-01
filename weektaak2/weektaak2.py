@@ -5,11 +5,12 @@ import statistics
 
 def main():
     bp = int(input('Per hoeveel nucleotide wil je de sequenties sorteren?:'))
+
     for file in [f for f in os.listdir() if re.match(".*\.fasta", f)]:
         seq,file,headers = inlezen(file)
         gc_lijst,gcprocent = GC_berekenen(seq,file,bp)
         Grafiek(gc_lijst,bp,seq,headers,gcprocent)
-
+    
 def inlezen(file):
     file = open(file,'r')
     
@@ -35,23 +36,35 @@ def GC_berekenen(seq,file,bp):
     gcprocent = round(((seq.count('C')+seq.count('G'))/(len(seq)-seq.count('N')))*100, 3)
     print('GC%:',gcprocent,'%')
 
-    lijst = [seq[i:i+bp] for i in range(0, len(seq), bp)]
-    gc_lijst = []
+    ratio = gcprocent/100    
 
-    i = 0
-    n = 0
+    lijst = [seq[i:i+bp] for i in range(0, len(seq), bp)]
+
+    gc_lijst = []
+    
+    #print(lijst)
     for waarde in lijst:
-        if waarde.count('N') != 0:
-            print(waarde)
-        else:
-            g = lijst[i].count('G')
-            c = lijst[i].count('C')
-            GC = round(((g + c) /bp) *100,3)
+        #print(len(waarde))
+        
+        if waarde.count('N') != 0:    
+            n = waarde.count('N')
+            g = waarde.count('G')
+            c = waarde.count('C')
+        
+            GC = round((((g + c) + n*(ratio)) /len(waarde)) *100,3)
+
             gc_lijst.append(GC)
-            i += 1    
-    print(gc_lijst)  
+            
+        else:
+            g = waarde.count('G')
+            c = waarde.count('C')
+            GC = round(((g + c) /len(waarde)) *100,3)
+            gc_lijst.append(GC)
+            
+    #print(gc_lijst)  
     print('Mediaan:',statistics.median(gc_lijst))
-    #print('Variantie:',statistics.variance(gc_lijst))
+    print('Variantie:',statistics.variance(gc_lijst))
+    print(40*'-')
     return gc_lijst,gcprocent
 
 def Grafiek(gc_lijst,bp,seq,headers,gcprocent):
@@ -76,6 +89,6 @@ def Grafiek(gc_lijst,bp,seq,headers,gcprocent):
     plt.title('GC% per {} bp in {}'.format(bp,headers))
     plt.ylabel('GC%')
     plt.xlabel('Aantal nucleotide')
-    #plt.show()
+    plt.show()
     
 main()
