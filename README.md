@@ -1,4 +1,1 @@
-# groep-5
-
-
-# iohahghfhgjkadsbvnkbSNF HJVGGfgvuiutiudtyxfh vbjnk
+Wij hadden google drive moeten gebruiken...
