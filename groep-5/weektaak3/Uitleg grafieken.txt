@@ -1,0 +1,3 @@
+De CodonUsageDictENV Is alleen de envelop.
+
+De CodonUsageDictNoENV is alles behalve de envelop.
