@@ -1,0 +1,204 @@
+<_io.TextIOWrapper name='eiwit_HIV1.fasta' mode='r' encoding='UTF-8'>
+Het percentage cysteine is:  2.033080634045486
+Het percentage tryptofaan is:  2.3432115782219163
+Het percentage hydrofobe aminozuren is:  40.833907649896624
+Het percentage hydrofiele aminozuren is:  59.16609235010337
+Minste aantal aminozuren:  ['C', 'M', 'W']
+[59, 63, 68]
+['G', 'E', 'L']
+[207, 209, 242]
+2.033080634045486
+2.17091660923501
+2.3432115782219163
+----------------------------------------
+7.133011716057891
+7.201929703652652
+8.33907649896623
+----------------------------------------
+<_io.TextIOWrapper name='GPCR.fasta' mode='r' encoding='UTF-8'>
+Het percentage cysteine is:  4.3478260869565215
+Het percentage tryptofaan is:  3.1055900621118013
+Het percentage hydrofobe aminozuren is:  52.484472049689444
+Het percentage hydrofiele aminozuren is:  47.51552795031056
+Minste aantal aminozuren:  ['K', 'H', 'M']
+[10, 12, 14]
+['I', 'S', 'L']
+[50, 60, 114]
+1.5527950310559007
+1.8633540372670807
+2.1739130434782608
+----------------------------------------
+7.763975155279502
+9.316770186335404
+17.70186335403727
+----------------------------------------
+<_io.TextIOWrapper name='env_SIV.fasta' mode='r' encoding='UTF-8'>
+Het percentage cysteine is:  3.51288056206089
+Het percentage tryptofaan is:  3.629976580796253
+Het percentage hydrofobe aminozuren is:  39.812646370023415
+Het percentage hydrofiele aminozuren is:  60.187353629976585
+Minste aantal aminozuren:  ['M', 'H', 'F']
+[13, 13, 24]
+['N', 'T', 'L']
+[59, 66, 74]
+1.5222482435597189
+1.5222482435597189
+2.810304449648712
+----------------------------------------
+6.908665105386416
+7.728337236533958
+8.665105386416862
+----------------------------------------
+<_io.TextIOWrapper name='gpi_homosapiens.fasta' mode='r' encoding='UTF-8'>
+Het percentage cysteine is:  0.7814469372321654
+Het percentage tryptofaan is:  2.0670531888076633
+Het percentage hydrofobe aminozuren is:  42.17292664481976
+Het percentage hydrofiele aminozuren is:  57.82707335518024
+Minste aantal aminozuren:  ['C', 'W', 'Y']
+[31, 82, 96]
+['G', 'A', 'L']
+[281, 295, 384]
+0.7814469372321654
+2.0670531888076633
+2.419964708847996
+----------------------------------------
+7.083438366523821
+7.436349886564154
+9.679858835391984
+----------------------------------------
+<_io.TextIOWrapper name='env_SIVmnd2.fasta' mode='r' encoding='UTF-8'>
+Het percentage cysteine is:  3.348729792147806
+Het percentage tryptofaan is:  3.5796766743648964
+Het percentage hydrofobe aminozuren is:  38.56812933025404
+Het percentage hydrofiele aminozuren is:  61.43187066974596
+Minste aantal aminozuren:  ['H', 'M', 'F']
+[15, 17, 24]
+['K', 'L', 'T']
+[64, 77, 79]
+1.7321016166281753
+1.9630484988452657
+2.771362586605081
+----------------------------------------
+7.390300230946882
+8.891454965357967
+9.122401847575059
+----------------------------------------
+<_io.TextIOWrapper name='receptor_kinase.fasta' mode='r' encoding='UTF-8'>
+Het percentage cysteine is:  6.43076923076923
+Het percentage tryptofaan is:  1.0461538461538462
+Het percentage hydrofobe aminozuren is:  37.53846153846154
+Het percentage hydrofiele aminozuren is:  62.46153846153846
+Minste aantal aminozuren:  ['W', 'M', 'H']
+[34, 67, 89]
+['G', 'S', 'L']
+[237, 237, 302]
+1.0461538461538462
+2.0615384615384613
+2.7384615384615385
+----------------------------------------
+7.292307692307692
+7.292307692307692
+9.292307692307693
+----------------------------------------
+<_io.TextIOWrapper name='glucose_transport.fasta' mode='r' encoding='UTF-8'>
+Het percentage cysteine is:  4.144830871843736
+Het percentage tryptofaan is:  5.002382086707956
+Het percentage hydrofobe aminozuren is:  46.87946641257742
+Het percentage hydrofiele aminozuren is:  51.167222486898524
+Minste aantal aminozuren:  ['M', 'N', 'K']
+[22, 24, 37]
+['P', 'G', 'L']
+[199, 237, 277]
+1.0481181515007145
+1.1434016198189614
+1.7627441638875654
+----------------------------------------
+9.480705097665556
+11.291090995712244
+13.196760362077178
+----------------------------------------
+<_io.TextIOWrapper name='eiwit_SIV.fasta' mode='r' encoding='UTF-8'>
+Het percentage cysteine is:  2.043222003929273
+Het percentage tryptofaan is:  2.868369351669941
+Het percentage hydrofobe aminozuren is:  38.7426326129666
+Het percentage hydrofiele aminozuren is:  61.2573673870334
+Minste aantal aminozuren:  ['C', 'F', 'M']
+[52, 64, 68]
+['E', 'K', 'G']
+[202, 210, 214]
+2.043222003929273
+2.5147347740667976
+2.6719056974459727
+----------------------------------------
+7.937131630648329
+8.25147347740668
+8.408644400785855
+----------------------------------------
+<_io.TextIOWrapper name='env_HIV1.fasta' mode='r' encoding='UTF-8'>
+Het percentage cysteine is:  2.6869158878504673
+Het percentage tryptofaan is:  3.6214953271028034
+Het percentage hydrofobe aminozuren is:  40.887850467289724
+Het percentage hydrofiele aminozuren is:  59.112149532710276
+Minste aantal aminozuren:  ['H', 'M', 'Y']
+[14, 17, 19]
+['N', 'I', 'L']
+[60, 65, 82]
+1.6355140186915886
+1.9859813084112148
+2.219626168224299
+----------------------------------------
+7.009345794392523
+7.593457943925233
+9.579439252336448
+----------------------------------------
+<_io.TextIOWrapper name='eiwit_SIVmnd2.fasta' mode='r' encoding='UTF-8'>
+Het percentage cysteine is:  2.0972780008924587
+Het percentage tryptofaan is:  2.454261490406069
+Het percentage hydrofobe aminozuren is:  39.04506916555109
+Het percentage hydrofiele aminozuren is:  60.95493083444891
+Minste aantal aminozuren:  ['M', 'C', 'W']
+[47, 47, 55]
+['E', 'K', 'L']
+[180, 183, 183]
+2.0972780008924587
+2.0972780008924587
+2.454261490406069
+----------------------------------------
+8.032128514056225
+8.165997322623829
+8.165997322623829
+----------------------------------------
+<_io.TextIOWrapper name='env_HIV2.fasta' mode='r' encoding='UTF-8'>
+Het percentage cysteine is:  3.255813953488372
+Het percentage tryptofaan is:  3.488372093023256
+Het percentage hydrofobe aminozuren is:  39.76744186046511
+Het percentage hydrofiele aminozuren is:  60.23255813953489
+Minste aantal aminozuren:  ['H', 'M', 'C']
+[15, 18, 28]
+['R', 'T', 'L']
+[60, 69, 74]
+1.744186046511628
+2.0930232558139537
+3.255813953488372
+----------------------------------------
+6.976744186046512
+8.023255813953488
+8.604651162790699
+----------------------------------------
+<_io.TextIOWrapper name='eiwit_HIV2.fasta' mode='r' encoding='UTF-8'>
+Het percentage cysteine is:  1.98252688172043
+Het percentage tryptofaan is:  2.28494623655914
+Het percentage hydrofobe aminozuren is:  39.348118279569896
+Het percentage hydrofiele aminozuren is:  60.65188172043011
+Minste aantal aminozuren:  ['C', 'M', 'W']
+[59, 63, 68]
+['G', 'E', 'L']
+[230, 236, 250]
+1.98252688172043
+2.1169354838709675
+2.28494623655914
+----------------------------------------
+7.728494623655914
+7.93010752688172
+8.400537634408602
+----------------------------------------
